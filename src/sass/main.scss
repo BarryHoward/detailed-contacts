@@ -1,0 +1,109 @@
+@import "bulma";
+
+.main-content{
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.notification:not(:last-child) {
+    margin-bottom: 0px;
+    font-weight: bold;
+        background: #A7D076;
+}
+
+.contact-bar{
+	padding: 10px 20px;
+	background: white;
+	border-bottom: 2px solid lightgrey;
+	display: flex;
+	align-items: center;
+
+	i{
+		margin-right: 20px;
+	}
+}
+
+
+.circle{
+	display: flex;
+	justify-content: center;
+	background: white;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow:hidden;
+	align-items: flex-end;
+
+img{
+	width: 90px;
+	height: 90px;
+	}
+}
+
+.single-contact, .add-contact {
+	a{  color: black;
+		text-decoration: none;
+	}
+
+}
+
+.error-text {
+	padding: 10px 10px;
+	color:red;
+}
+.single, .list {
+	margin-bottom: 0px;
+    background: #A7D076;
+}
+
+.single{
+	height: 200px;
+}
+
+.list{
+	height: 100px;
+}
+
+.single-bottom{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+   	flex-grow: 2;
+   	height: 80%;
+}
+
+.button-bar, .notification {
+	display: flex;
+	justify-content: space-between;
+	height: 20%;
+	align-items: center;
+
+	button{
+		margin: none;
+		background: transparent;
+		border: none;
+		color: white;
+	}
+}
+
+.column{
+	border: 1px solid lightgrey;
+	padding: 0px;
+}
+
+.add-form {
+	width: 400px;
+
+}
+
+.column{
+	.input-container{
+		margin: 10px 20px;
+	}
+	.button-container{
+		display: flex;
+		padding: 20px;
+		justify-content: center;
+	}
+}

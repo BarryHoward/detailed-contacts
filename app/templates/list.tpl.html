@@ -1,0 +1,22 @@
+
+  <div class="column is-gapless is-one-quarter">
+    <p class="notification is-success">My Peeps
+    </p>
+    <div class="single-contact" ng-repeat="contact in list.contacts">
+    	<a href="#/single/{{contact._id}}">
+	    	<div class="contact-bar">
+		    	<i class="fa fa-user-circle" aria-hidden="true"></i>
+		    	{{contact.name}}
+	    	</div>
+	    </a>
+    </div>
+    <div class="add-contact">
+    	<a href="#/add">
+	    	<div class="contact-bar">
+		    	<i class="fa fa-plus" aria-hidden="true"></i>
+		    	Add Contact
+	    	</div>
+	    </a>
+    </div>
+
+  </div>

@@ -1,0 +1,37 @@
+  <div class="column is-gapless is-one-third">
+    <div class="single">
+    	<div class="button-bar">
+			<button ng-click="single.gotoHome()" class="delete-comment">
+				<span class="icon">
+					<i class="fa fa-arrow-left"></i>
+				</span>
+			</button>
+			<button ng-click="single.deleteContact(single.contact)" class="delete-comment">
+				<span class="icon">
+					<i class="fa fa-times"></i>
+				</span>
+			</button>
+		</div>
+		<div class="single-bottom">
+		    <div class="circle">
+		    	<img src="../../images/user-icon.png">
+		    </div>
+		</div>
+    </div>
+	<div class="contact-bar">
+		<i class="fa fa-user" aria-hidden="true"></i>
+    	{{single.contact.name}}
+	</div>
+	<div class="contact-bar">
+		<i class="fa fa-envelope" aria-hidden="true"></i>
+    	{{single.contact.email}}
+	</div>
+	<div class="contact-bar">
+		<i class="fa fa-phone" aria-hidden="true"></i>
+    	{{single.contact.phone}}
+	</div>
+	<div class="contact-bar">
+		<i class="fa fa-globe" aria-hidden="true"></i>
+    	{{single.contact.city}}, {{single.contact.state}}
+	</div>
+  </div>
